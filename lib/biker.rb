@@ -44,11 +44,4 @@ class Biker
       @ride_start_time = time
     end
 
-    def log_ride_time(ride_time)
-      @rides[@ride_start_time] = ride_time
-    end
-
-    def personal_best_time
-      @rides.values.min
-    end
 end
